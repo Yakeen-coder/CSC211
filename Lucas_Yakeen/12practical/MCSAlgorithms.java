@@ -158,9 +158,6 @@ public class MCSAlgorithms {
 
     public static void main(String[] args) {
         Random rng = new Random();
-
-        // Header exactly as in the PDF:
-        // n O(n3) O(n2) O(n2) O(n)
         System.out.printf("%-8s %-8s %-8s %-8s %-8s%n",
                 "n", "O(n3)", "O(n2)", "O(n2)", "O(n)");
 
